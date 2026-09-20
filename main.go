@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/AleksaVlcek/spotify-cli/cmd"
 
 func main() {
-	fmt.Println("spotify-cli is working")
+	cmd.Execute()
 }
